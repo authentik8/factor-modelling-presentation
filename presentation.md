@@ -151,4 +151,33 @@ We can also test for model stability by plotting obtained factor sensitivities o
 
 # Better Benchmarks
 
-From the
+The main question emerging from this factor modelling exercise is whether the models & the factor exposures they suggest can be used to create better hedge fund benchmarks:
+- Aim to replicate particular hedge fund strategies
+- Constitute investable alternatives to hedge fund indices
+
+Ultimately the goal is to __accurately separate systematic risk exposure from true manager alpha__ (which shouldn't be part of a benchmark).
+
+A number of papers (including one published by Bridgewater Associates) have attempted to do exactly this, across Managed Futures, Merger Arbitrage, Fixed Income Arbitrage & Long / Short Equity. In this case, the performance of strategies investing directly in the factor exposures (Replicaating Factor Strategy, RFS) taken from the regression is given, i.e.
+```maths
+Return(t) = Σ(β_i * F_i(t))
+
+where:
+  Return(t) : Strategy return at time t
+  β_i       : Co-efficient of exposure to factor i
+  F_i(t)    : Return of factor i at time t
+```
+
+Claim to avoid in-sample overfitting by calculating factors for RFS on a rolling look-forward basis, i.e. data to determine factor level at time t was determined by the previous 5 years of data, ending with the previous month.
+
+## Results
+
+For the years 2003-2005 ***CHECK THIS FOR CURRENT RETURNS***, cumulative RFS returns are often superior to the returns of HF indices, especially when compared to the investable versions (with the sole exception of the  Distressed strategy).
+
+The authors suggest that this potentially provides an illustration as to the source of hedge fund returns:
+
+- A long-only manager has two main sources of return: Market risk (i.e. Beta) and his "alpha".
+- The authors claim that a HF will hedge away all or most of the broad market exposure, e.g. through shorts, derivatives, etc.
+- Naively, this results in a "pure alpha" product with low expected returns and low expected risk, which is then amplified via leverage to produce an attractive standalone investment.
+- The use of leverage to scale up the alpha product reveals sources of all sorts of risk that were previously hidden - "_beta in alpha's clothing_".
+
+The authors estimate that up to __80%__ of HF returns originate from Beta exposure, with the balance accounted for by alpha (or indeed other not-yet-modelled risk factors). 
