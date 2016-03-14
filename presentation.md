@@ -198,7 +198,7 @@ The authors estimate that up to __80%__ of HF returns originate from Beta exposu
 
 #### Equity Market Neutral
 
-- Given funds following this style aim for zero exposure to equity market factors, it's unsuprising that this strategy only has a small exposure to broad equity markets
+- Given funds following this style aim for zero exposure to equity market factors, it's unsurprising that this strategy only has a small exposure to broad equity markets
 - Also carries sensitivity to UMD momentum factor & value factor
 - Along with Managed Futures, the factor model shown here has the lowest degree of explanatory power, suggesting that simple non-linear models fall short of providing high degrees of explanatory power.
 - Part of this may be due to the very different sub-styles that fall into this category:
@@ -210,7 +210,7 @@ The authors estimate that up to __80%__ of HF returns originate from Beta exposu
 #### Short-Selling
 
 - Main exposure of this strategy is (self-evidently) negative exposure to the equity market
-- Best modeled with the same factor as the L/S manager: a convertible bond index
+- Best modelled with the same factor as the L/S manager: a convertible bond index
 - High alpha value ~4-5%, for a number of possible reasons:
   - Many investors are restricted from selling short
   - Must be high in order for the strategy to generate any profits at all, since short-equity starts with an expected return of -4:7%
