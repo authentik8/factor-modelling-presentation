@@ -225,3 +225,12 @@ The authors estimate that up to __80%__ of HF returns originate from Beta exposu
 - Cumulatively explains 80% of event-driven performance
 - Highest alpha factor of approx. 5% p.a.
 - RFS strategy returns about 2/3 of HFRI index return but again, significantly outperforms the HFRX & S&P investable indices.
+
+
+#### Distressed Securities
+
+- Simple set of exposures to credit, equity (largely small-cap) & liquidity risk
+- Largest factor is AR(1), reflecting low liquidity prevalent in this strategy, due to a lack of regular pricing and valuation
+- Closely represents the return stream of private equity investment
+- High level of alpha (3-4% p.a.)
+- Outperformed by both the HFRI & HFRX indices
