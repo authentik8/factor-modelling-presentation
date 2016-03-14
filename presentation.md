@@ -196,7 +196,7 @@ The authors estimate that up to __80%__ of HF returns originate from Beta exposu
 - CPPI component reflects that HFs will typically decrease exposure in falling markets and increasing it in rising ones
 - RFS strategy performs relatively well alongside the HFRI index - Fig. 17 shows decreasing alpha over time and thus increased predictive power of the factor model, whilst it outperforms the HFRX investable index.
 
-### Equity Market Neutral
+#### Equity Market Neutral
 
 - Given funds following this style aim for zero exposure to equity market factors, it's unsuprising that this strategy only has a small exposure to broad equity markets
 - Also carries sensitivity to UMD momentum factor & value factor
@@ -207,10 +207,10 @@ The authors estimate that up to __80%__ of HF returns originate from Beta exposu
 - RFS strategy somewhat underperforms HFRI index reflecting positive alpha identified in factor analysis, although outperforms the HFRX index significantly.
 
 
-### Short-Selling
+#### Short-Selling
 
 - Main exposure of this strategy is (self-evidently) negative exposure to the equity market
 - Best modeled with the same factor as the L/S manager: a convertible bond index
 - High alpha value ~4-5%, for a number of possible reasons:
   - Many investors are restricted from selling short
-  - Must be high in order for the strategy to generate any profits at all, since short-equity starts with an expected return of -4:7%
+  - Must be high in order for the strategy to generate any profits at all, since short-equity starts with an expected return of -4:7% 
