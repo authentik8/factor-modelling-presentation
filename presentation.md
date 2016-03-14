@@ -308,3 +308,16 @@ The authors estimate that up to __80%__ of HF returns originate from Beta exposu
   - Volatility-weighted combination of trend following strategies
   - Covers 25 liquid futures contracts, covering commodities, bonds & currencies
 - Only strategy to display negative alpha (although not at a statistically significant level)
+
+# The Future of Alpha
+
+- There's a good reason to believe that the average alpha extracted by hedge fund managers is destined to decline (further than it already has)- see Fig. 17, which indicates the alpha of a rolling regression over a 60 month time window for a L/S equity strategy.
+- A fairly natural explanation follows: as more money chases a limited pool of market inefficiencies, they will decrease & potentially even disappear.
+- No good reason to think that the global "_capacity for alpha_" is likely to decrease
+  - Ultimately this is a function of how much inefficiency the average investor & market regulators are willing to tolerate
+  - Not likely to have decreased over the period in question
+- Additionally, the quality of the average hedge fund manager may also play a part:
+  - Barriers to entry for hedge funds have only decreased, leading more managers to enter the space
+  - This is likely to result in a dilution of average performance & thus average alpha across the industry.
+
+Alpha remains the most attractive source of returns, as it comes with no systematic risk & no correlation to other asset classes. However, investors should realise both __the scarcity of true alpha and the power of alternative beta__, the latter of which has a capacity a great deal larger than the former.
