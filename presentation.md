@@ -234,3 +234,17 @@ The authors estimate that up to __80%__ of HF returns originate from Beta exposu
 - Closely represents the return stream of private equity investment
 - High level of alpha (3-4% p.a.)
 - Outperformed by both the HFRI & HFRX indices
+
+
+#### Merger Arbitrage
+
+- Proposed in another paper that this strategy has high conditional correlations:
+  - High correlation to equity market to equity markets when it declines
+  - Low correlation when stocks trade up or sideways
+- This corresponds well to a correlation profile of a sold put option on equities, and in fact directly to a sold put option on announced merger deals.
+- Short put profile is reflected in high exposure to BXM factor: shorting put options gives limited upside but full participation on downside
+- Appropriate on a number of levels:
+  - Obvious exposure to merger deals breaking up
+  - WHen stock markets decline sharply, deals are more likely to breaking
+  - Market declines will also reduce likelihood of bids being revised up & reduce competition for acquisition targets
+- Overall exposure to equity market comes from correlation between event risk & the market rather than individual position level exposures.
