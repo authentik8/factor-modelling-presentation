@@ -248,3 +248,21 @@ The authors estimate that up to __80%__ of HF returns originate from Beta exposu
   - When stock markets decline sharply, deals are more likely to breaking
   - Market declines will also reduce likelihood of bids being revised up & reduce competition for acquisition targets
 - Overall exposure to equity market comes from correlation between event risk & the market rather than individual position level exposures.
+
+#### General Relative Value
+
+- Covers both the Fixed Income Arbitrage and Convertible Arbitrage strategies.
+- Three types of systematic exposure:
+  - Capitalize on price spreads between two or more related financial instruments, capturing a risk premia such as:
+    - Credit risk
+    - Interest rate term structure risk
+    - Liquidity risk
+    - Exchange rate risk
+  - Provide liquidity and price transparency in complex financial instruments (typically employing proprietary valuation models)
+    - Liquidity risk
+    - "Complexity premia"
+  - Short some form of volatility, as RV HF managers have a preference for negatively skewed return distributions: "__picking up pennies in-front of a steam roller__".
+
+##### Fixed Income Arbitrage
+
+##### Convertible Arbitrage
