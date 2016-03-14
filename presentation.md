@@ -292,3 +292,13 @@ The authors estimate that up to __80%__ of HF returns originate from Beta exposu
  - Credit oriented clearly has a significant exposure to credit risk, the option-based method does not.
  - Increased volatility helps the option-based strategy, but widening credit spreads have a negative impact.
 - The two trading styles are not currently differentiated in indices, making it difficult to capture their factor sensitivities independently.
+
+
+#### Global Macro
+
+- Do better in strong bond markets, indicated by strong correlation with bond market index factor
+- Other factors include trend-following(sGFI) & non-linear exposure to the broader equity market.
+- R^2 value comes out quite low for this strategy, due to the wide coverage of this strategy: Global Macro includes probably the widest variety of trading approaches.
+  - Probably best applied to on a manager-level, as it is the individual markets and particular investment techniques employed by a given manager that give the available risk premia & potential market inefficiencies.
+
+  
