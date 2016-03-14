@@ -181,4 +181,27 @@ The authors suggest that this potentially provides an illustration as to the sou
 - Naively, this results in a "pure alpha" product with low expected returns and low expected risk, which is then amplified via leverage to produce an attractive standalone investment.
 - The use of leverage to scale up the alpha product reveals sources of all sorts of risk that were previously hidden - "_beta in alpha's clothing_".
 
-The authors estimate that up to __80%__ of HF returns originate from Beta exposure, with the balance accounted for by alpha (or indeed other not-yet-modelled risk factors). 
+The authors estimate that up to __80%__ of HF returns originate from Beta exposure, with the balance accounted for by alpha (or indeed other not-yet-modelled risk factors).
+
+### Strategy-Specific Notes
+
+#### Long-Short Equity
+
+- Wilshire spread is difference between Wilshire 750 Index & Wilshire 1750 index, intended to proxy the risk-premium captured by investing in smaller-cap stocks.
+- L/S returns in fact have a highly non-linear profile, similar in many ways to convertible bonds:
+  - Less participation on the upside
+  - Protection on the downside to some extent
+  - More expressed losses in the event of a larger downturn (when convertibles lose their bond floor)
+- Substitution of an equity factor with a convertible bond index therefore substantially improves the modelling accuracy of this model.
+- CPPI component reflects that HFs will typically decrease exposure in falling markets and increasing it in rising ones
+- RFS strategy performs relatively well alongside the HFRI index - Fig. 17 shows decreasing alpha over time and thus increased predictive power of the factor model, whilst it outperforms the HFRX investable index.
+
+### Equity Market Neutral
+
+- Given funds following this style aim for zero exposure to equity market factors, it's unsuprising that this strategy only has a small exposure to broad equity markets
+- Also carries sensitivity to UMD momentum factor & value factor
+- Along with Managed Futures, the factor model shown here has the lowest degree of explanatory power, suggesting that simple non-linear models fall short of providing high degrees of explanatory power.
+- Part of this may be due to the very different sub-styles that fall into this category:
+  - System-based approach buying undervalued stocks & selling overvalued stocks according to value & momentum-based analysis
+  - Short-term approach based on statistical analysis of relative performance deviation of similar stocks.
+- RFS strategy somewhat underperforms HFRI index reflecting positive alpha identified in factor analysis, although outperforms the HFRX index significantly.
