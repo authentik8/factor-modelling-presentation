@@ -151,4 +151,4 @@ We can also test for model stability by plotting obtained factor sensitivities o
 
 # Better Benchmarks
 
-From the
+THe authors argue these factor exposures suggest a better method for the construction of hedge fund indices - one should accurately separate systematic alternative beta exposure from true manager's alpha: an index should be composed entirely of the former, whilst the latter shouldn't feature.
