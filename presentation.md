@@ -301,4 +301,10 @@ The authors estimate that up to __80%__ of HF returns originate from Beta exposu
 - R^2 value comes out quite low for this strategy, due to the wide coverage of this strategy: Global Macro includes probably the widest variety of trading approaches.
   - Probably best applied to on a manager-level, as it is the individual markets and particular investment techniques employed by a given manager that give the available risk premia & potential market inefficiencies.
 
-  
+####  Managed Futures
+
+- Main speculative agents in the global futures markets, capturing what is referred to as the "__commodity hedging demand premium__"
+- sFGI trading rule mentioned for __Global Macro__ comes into play:
+  - Volatility-weighted combination of trend following strategies
+  - Covers 25 liquid futures contracts, covering commodities, bonds & currencies
+- Only strategy to display negative alpha (although not at a statistically significant level)
