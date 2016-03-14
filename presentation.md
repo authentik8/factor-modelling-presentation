@@ -263,4 +263,32 @@ The authors estimate that up to __80%__ of HF returns originate from Beta exposu
 
 ##### Fixed Income Arbitrage
 
+- Exposed to a mixture of:
+  - Liquidity risk
+  - Credit risk
+  - Term structure risk
+- Example strategies include:
+  - Credit barbell: long short-term debt of lower credit quality, short long-term government debt of high credit quality
+  - Yield curve spread trades
+  - On-the-run vs. off-the-run treasury bond positions
+- High exposures to credit risk, convertible bonds & EM bond securities
+- High AR(1) significance lagged pricing of underlying securities & thus liquidity risk
+- Heaviest losses occur in "flight-to-quality" scenarios, & thus strategy bears return profile similiar to short OOTM options: risk of significant losses but otherwise steady returns.
+
 ##### Convertible Arbitrage
+
+- Exposed to a variety of different risk factors:
+  - Credit risk
+  - Equity market risk
+  - Equity volatility risk
+  - Liquidity risk
+- HY factor, convertible & equity factors make an appearance in factor weightings, as does the `AR(1)` term.
+  - Autocorrelation term signals a lack of consistent & timely pricing of underlying convertible securities
+  - Reflects exposure to liquidity & valuation risk
+- Two distinct disciplines within this space:
+  - Option-based: Buy the convertible bond, sell short the underlying equity and maintain a delta hedge (__gamma trading__)
+  - Credit-oriented: Make an explicit assessment of the issuer's creditworthiness & take on overpriced credit risk
+- These two strategies have very different exposure & factor profiles:
+ - Credit oriented clearly has a significant exposure to credit risk, the option-based method does not.
+ - Increased volatility helps the option-based strategy, but widening credit spreads have a negative impact.
+- The two trading styles are not currently differentiated in indices, making it difficult to capture their factor sensitivities independently.
