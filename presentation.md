@@ -205,3 +205,12 @@ The authors estimate that up to __80%__ of HF returns originate from Beta exposu
   - System-based approach buying undervalued stocks & selling overvalued stocks according to value & momentum-based analysis
   - Short-term approach based on statistical analysis of relative performance deviation of similar stocks.
 - RFS strategy somewhat underperforms HFRI index reflecting positive alpha identified in factor analysis, although outperforms the HFRX index significantly.
+
+
+### Short-Selling
+
+- Main exposure of this strategy is (self-evidently) negative exposure to the equity market
+- Best modeled with the same factor as the L/S manager: a convertible bond index
+- High alpha value ~4-5%, for a number of possible reasons:
+  - Many investors are restricted from selling short
+  - Must be high in order for the strategy to generate any profits at all, since short-equity starts with an expected return of -4:7%
