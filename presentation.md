@@ -213,4 +213,15 @@ The authors estimate that up to __80%__ of HF returns originate from Beta exposu
 - Best modeled with the same factor as the L/S manager: a convertible bond index
 - High alpha value ~4-5%, for a number of possible reasons:
   - Many investors are restricted from selling short
-  - Must be high in order for the strategy to generate any profits at all, since short-equity starts with an expected return of -4:7% 
+  - Must be high in order for the strategy to generate any profits at all, since short-equity starts with an expected return of -4:7%
+
+
+#### Event Driven
+
+- Large exposure to broad equity market, small cap stocks & HY bond market
+- AR(1) possibly due to:
+  - Liquidity risk
+  - Potential lagged pricing of underlying securities
+- Cumulatively explains 80% of event-driven performance
+- Highest alpha factor of approx. 5% p.a.
+- RFS strategy returns about 2/3 of HFRI index return but again, significantly outperforms the HFRX & S&P investable indices.
