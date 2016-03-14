@@ -139,7 +139,7 @@ The `AR(1)` factor (1 month lagged time series of the dependent variable) plays 
   - Distressed Debt
   - Fixed Income Arbitrage
 
-As mentioned earlier, this is likely due to delays in accurate pricing for portfolios, producing an autocorrelative effect. Futher, this suggests that simple risk measures such as Sharpe ratio, volatility, correlation, etc. may significantly underestimate the true market risk in HF strategies, meaning that the `AR(1)` factor may in fact measure some _lagged beta_.
+As mentioned earlier, this is likely due to delays in accurate pricing for portfolios, producing an auto-correlative effect. Further, this suggests that simple risk measures such as Sharpe ratio, volatility, correlation, etc. may significantly underestimate the true market risk in HF strategies, meaning that the `AR(1)` factor may in fact measure some _lagged beta_.
 
 Generally, this model captures a large portion of HF returns, with relatively high R^2 values (approx. 60% on average). However, the factor models are much more expressive for some strategies and not others.
 
@@ -168,7 +168,7 @@ where:
   F_i(t)    : Return of factor i at time t
 ```
 
-Claim to avoid in-sample overfitting by calculating factors for RFS on a rolling look-forward basis, i.e. data to determine factor level at time t was determined by the previous 5 years of data, ending with the previous month.
+Claim to avoid in-sample over-fitting by calculating factors for RFS on a rolling look-forward basis, i.e. data to determine factor level at time t was determined by the previous 5 years of data, ending with the previous month.
 
 ## Results
 
@@ -245,6 +245,6 @@ The authors estimate that up to __80%__ of HF returns originate from Beta exposu
 - Short put profile is reflected in high exposure to BXM factor: shorting put options gives limited upside but full participation on downside
 - Appropriate on a number of levels:
   - Obvious exposure to merger deals breaking up
-  - WHen stock markets decline sharply, deals are more likely to breaking
+  - When stock markets decline sharply, deals are more likely to breaking
   - Market declines will also reduce likelihood of bids being revised up & reduce competition for acquisition targets
 - Overall exposure to equity market comes from correlation between event risk & the market rather than individual position level exposures.
