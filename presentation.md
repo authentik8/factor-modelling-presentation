@@ -96,7 +96,6 @@ Similar to survivorship, backfilling also introduces an upwards bias: new manage
 Unlike equity & bond indices, which use publicly available information in their construction, HF index providers rely on managers to volunteer accurate return data. This introduces severe "_self-selection_" bias to the index, as it skews the index towards a given set of managers on a going-forward basis.
 
 Further, every HF Index draws its performance information from a different source, each with relatively few funds in common with the others (resulting in completely un-homogeneous sampling & therefore significant performance deviations between the different indices).  
-***MAKE A GRAPH TO SHOW THIS***.
 
 ### Autocorrelation
 
@@ -104,8 +103,7 @@ Less-liquid HF strategies (such as Distressed Debt) can suffer from time-lag in 
 
 ### Investable / Non-Investable
 
-In order for creating an investable vehicle to track an index, the underlying managers must have sufficient capacity to accept new investments. This introduces a large selection bias, as it immediately follows that at-capacity (closed) hedge funds must be excluded from such an index.  
-***GRAPH OF UNDER-PERFORMANCE***
+In order for creating an investable vehicle to track an index, the underlying managers must have sufficient capacity to accept new investments. This introduces a large selection bias, as it immediately follows that at-capacity (closed) hedge funds must be excluded from such an index.
 
 ## Back to Modelling HF Returns
 
@@ -172,7 +170,7 @@ Claim to avoid in-sample over-fitting by calculating factors for RFS on a rollin
 
 ## Results
 
-For the years 2003-2005 ***CHECK THIS FOR CURRENT RETURNS***, cumulative RFS returns are often superior to the returns of HF indices, especially when compared to the investable versions (with the sole exception of the  Distressed strategy).
+For the years 2003-2005, cumulative RFS returns are often superior to the returns of HF indices, especially when compared to the investable versions (with the sole exception of the  Distressed strategy).
 
 The authors suggest that this potentially provides an illustration as to the source of hedge fund returns:
 
