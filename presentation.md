@@ -16,8 +16,6 @@ If a specific return is available to only a handful of investors and cannot be e
 
 Returns expressible in a systematic fashion but involving non-conventional techniques & instruments is possibly beta, termed __alternative beta__ to reflect the non-standard nature of the method used to obtain it.
 
-----------------------------------------------------------
-
 The ideal model sought in this paper is a _general equilibrium_ model relating HF returns to their _systematic exposures_ represented by directly observable prices in financial markets, similarly to __CAPM__ for equity markets.
 
 
@@ -321,3 +319,19 @@ The authors estimate that up to __80%__ of HF returns originate from Beta exposu
   - This is likely to result in a dilution of average performance & thus average alpha across the industry.
 
 Alpha remains the most attractive source of returns, as it comes with no systematic risk & no correlation to other asset classes. However, investors should realise both __the scarcity of true alpha and the power of alternative beta__, the latter of which has a capacity a great deal larger than the former.
+
+# The Future of Hedge Fund Capacity
+
+Having established a rough breakdown of hedge fund return sources, we can now examine the question that lies at the centre of future hedge fund growth: that of capacity.
+
+Perform the following rough calculations:
+
+- The global market capitalisation of all public stocks & debt is approximately __$88 Trillion__.
+- Alpha generation is a zero-sum game (winners in the HF universe must be compensated by losses to equity & bond investors), and therefore there must be an average tolerance level accepted by investors before competitive or regulatory forces act to close the gap. The authors estimate this to be __0.25%__ p.a.
+- This gives a figure of __$220 Billion__ alpha available across the global equity & bond markets.
+- Assume that hedge funds can only participate in a portion of this alpha, __1/4__ say, with other professional investors such as prop trading operations, etc. taking the remainder.
+- This gives just __$55 Billion__ of alpha available to hedge funds, and assuming investors require average returns from managers of approximately __15%__ p.a., this implies an overall capacity for the industry of ___$366 Billion___, based on alpha alone.
+
+- Given that the total size of HF assets in the industry is closer to __3__ times this, clearly one must invoke an argument related to the alternative beta portion of hedge fund returns in order to produce a coherent explanation for the size of the hedge fund universe. Using the figure obtained earlier of __20%__ of HF returns resulting from alpha, with the remaining __80%__ originating in beta components, we instead arrive at a capacity of ___$1.8 Trillion___, approximately twice the industry size.
+
+Assuming attenuation of the alpha component continues, perhaps to __10%__, this capacity figure jumps to ___$3.7 Trillion___, assuming capacity of alternative beta is not limited at such levels.
